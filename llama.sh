@@ -8,7 +8,8 @@
 
 PRESIGNED_URL="https://agi.gpt4.org/llama/LLaMA/*"
 
-MODEL_SIZE="7B,13B,30B,65B"  # edit this list with the model sizes you wish to download
+# MODEL_SIZE="7B,13B,30B,65B"  # edit this list with the model sizes you wish to download
+MODEL_SIZE="7B"  # edit this list with the model sizes you wish to download
 TARGET_FOLDER="./"             # where all files should end up
 
 declare -A N_SHARD_DICT
